@@ -1,0 +1,11 @@
+/home/juliusw/FileOrgSoftwareDotnet/bin/Debug/netcoreapp3.1/FileOrgSoftwareDotnet
+/home/juliusw/FileOrgSoftwareDotnet/bin/Debug/netcoreapp3.1/FileOrgSoftwareDotnet.deps.json
+/home/juliusw/FileOrgSoftwareDotnet/bin/Debug/netcoreapp3.1/FileOrgSoftwareDotnet.runtimeconfig.json
+/home/juliusw/FileOrgSoftwareDotnet/bin/Debug/netcoreapp3.1/FileOrgSoftwareDotnet.runtimeconfig.dev.json
+/home/juliusw/FileOrgSoftwareDotnet/bin/Debug/netcoreapp3.1/FileOrgSoftwareDotnet.dll
+/home/juliusw/FileOrgSoftwareDotnet/bin/Debug/netcoreapp3.1/FileOrgSoftwareDotnet.pdb
+/home/juliusw/FileOrgSoftwareDotnet/obj/Debug/netcoreapp3.1/FileOrgSoftwareDotnet.csprojAssemblyReference.cache
+/home/juliusw/FileOrgSoftwareDotnet/obj/Debug/netcoreapp3.1/FileOrgSoftwareDotnet.AssemblyInfoInputs.cache
+/home/juliusw/FileOrgSoftwareDotnet/obj/Debug/netcoreapp3.1/FileOrgSoftwareDotnet.AssemblyInfo.cs
+/home/juliusw/FileOrgSoftwareDotnet/obj/Debug/netcoreapp3.1/FileOrgSoftwareDotnet.dll
+/home/juliusw/FileOrgSoftwareDotnet/obj/Debug/netcoreapp3.1/FileOrgSoftwareDotnet.pdb
