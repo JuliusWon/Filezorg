@@ -2,12 +2,13 @@
 Filezorg automatically makes a folder every week so you can organize your files. This is just a project that I made to help organize *my* files and wanted to publish it in case anyone could make use of it.
 
 ### Install and setup
-### Step One: Clone this repository
+### Clone this repository
+```bash
 mkdir filezorg
 cd filezorg
 git clone https://github.com/JuliusWon/Filezorg.git
-
-### Step 2: Add to crontab
+```
+### Add to crontab
 To make the folder crontab must run this app on a set time. To do this:
 install crontab. This varies by distrobution.
 
@@ -41,5 +42,5 @@ echo "$SHELL | $PATH | $DISPLAY | $DESKTOP_SESSION | $DBUS_SESSION_BUS_ADDRESS |
 export EDITOR=vim
 crontab -e
 #replace values with the ones found in previous step
-0 * * * * env PATH=/usr/local/bin:/usr/bin DISPLAY=:0 DESKTOP_SESSION=Openbox DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus" /usr/bin/dwall -s firewatch
+0 * * * * env PATH=/usr/local/bin:/usr/bin DISPLAY=:0 DESKTOP_SESSION=Openbox DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus" ./~/filezorg/filezorg.sh
 ```
