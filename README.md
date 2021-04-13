@@ -22,8 +22,24 @@ sudo apt install cron
 ### Enable Crontab
 
 enable cronie for arch:
+
+```bash 
 sudo systemctl enable cronie.service --now
+```
 
 This may be different for debian systems.
 
+### Get Env Variables
 
+```bash
+echo "$SHELL | $PATH | $DISPLAY | $DESKTOP_SESSION | $DBUS_SESSION_BUS_ADDRESS | $XDG_RUNTIME_DIR"
+```
+
+### Set crontab
+
+```bash
+export EDITOR=vim
+crontab -e
+#replace values with the ones found in previous step
+0 * * * * env PATH=/usr/local/bin:/usr/bin DISPLAY=:0 DESKTOP_SESSION=Openbox DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus" /usr/bin/dwall -s firewatch
+```
