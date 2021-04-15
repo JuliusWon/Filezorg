@@ -43,5 +43,5 @@ echo "$SHELL | $PATH | $DISPLAY | $DESKTOP_SESSION | $DBUS_SESSION_BUS_ADDRESS |
 export EDITOR=vim
 crontab -e
 #replace values with the ones found in previous step
-0 * * * * env PATH=/usr/local/bin:/usr/bin DISPLAY=:0 DESKTOP_SESSION=Openbox DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus" ./home/<yourusername>/filezorg/Filezorg/DotnetCoreCode/bin/Debug/netcoreapp3.1/
+0 * * * * env PATH=/usr/local/bin:/usr/bin DISPLAY=:0 DESKTOP_SESSION=Openbox DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/1000/bus" ./home/<yourusername>/filezorg/filezorg/DotnetCoreCode/bin/Debug/netcoreapp3.1/filezorg
 ```
